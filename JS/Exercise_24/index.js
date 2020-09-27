@@ -8,22 +8,62 @@ for (let i = 0; i < 1000; i++) {
     }  
 }
 
-for (let j = 0; j < 11; j++) {
-    console.log(j); 
+for (let a = 0; a < 11; a++) {
+    console.log('*'.repeat(a)); 
 }
 
-let k = 100;
+let b = 0;
 
 do {
-    console.log(k);
-    k--;
-} while (k >= 0);
+    console.log('*'.repeat(b));
+    b++;
+} while (b < 11);
 
-let l = 1
+let c = 0;
 
-while (l < 100) {
-    if (l % 2 == 0) {
-        console.log(l);
+while (c < 11) {
+    console.log('*'.repeat(c));
+    c++;
+}
+
+for (let d = 100; d >= 0; d--) {
+    console.log('*'.repeat(d)); 
+}
+
+let e = 100;
+
+do {
+    console.log('*'.repeat(e));
+    e--;
+} while (e >= 0);
+
+let f = 100;
+
+while (f >= 0) {
+    console.log('*'.repeat(f));
+    f--;
+}
+
+for (let g = 1; g < 100; g++) {
+    if (g % 2 == 0) {
+        console.log('*'.repeat(g));
+    }    
+}
+
+let h = 1;
+
+do {
+    if (h % 2 == 0) {
+        console.log('*'.repeat(h));
     }
-    l++;
+    h++;  
+} while (h < 100);
+
+let i = 1;
+
+while (i < 100) {
+    if (i % 2 == 0) {
+        console.log('*'.repeat(i));
+    }
+    i++; 
 }
