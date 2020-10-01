@@ -6,13 +6,15 @@ function showEvenNums() {
     }
 }
 
+showEvenNums();
+
 function showUser() {
-    console.log('Name:', 'Daniel Peter-Salawu');
-    console.log('Age:', 100);
-    console.log('Address:', '888 Newday Avenue');
-    console.log('Postalcode:', 'R3T 6M3');
-    console.log('Married:', false);
+    console.log(
+        'Name: Daniel Peter-Salawu\nAge: 100\nAddress: 888 Newday Avenue\nPostalcode: R3T 6M3\nMarried: false'
+    );
 }
+
+showUser();
 
 let evenNumbers = () => {
     for (let i = 0; i < 101; i++) {
