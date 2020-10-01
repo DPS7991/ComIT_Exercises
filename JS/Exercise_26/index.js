@@ -51,3 +51,4 @@ let showName = () => {
 };
 
 showName();
+showName();
