@@ -31,20 +31,15 @@ evenNumbers();
 evenNumbers();
 
 let fibonacci = (maxLimit) => {
-    let a = 1;
-    let b = 0;
-    let temp;
-
-    while (maxLimit >= 0) {
-        temp = a;
-        a = a + b;
-        b = temp;
-        maxLimit--;
+    if (maxLimit == 1) {
+        return 0;
+    } else if (maxLimit == 2) {
+        return 1;
     }
-    console.log(b);
+    return fibonacci(maxLimit - 1) + fibonacci(maxLimit - 2);
 };
 
-fibonacci(10);
+console.log(fibonacci(10));
 
 let showName = () => {
     console.log('==========');
