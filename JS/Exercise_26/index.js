@@ -42,6 +42,18 @@ let fibonacci = (maxLimit) => {
     return fibonacci(maxLimit - 1) + fibonacci(maxLimit - 2);
 };
 
+let factorial = (num) => {
+    if ((num == 0) || (num == 1)) {
+        return 1;
+    } else if ((isNaN(num)) || (num <= 0)) {
+        console.error("Invalid Number");
+        return -1;
+    };
+    return (num * factorial(num - 1));
+};
+
+console.log(factorial(4));
+
 console.log(fibonacci(10));
 
 let showName = () => {
