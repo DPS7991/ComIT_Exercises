@@ -35,7 +35,7 @@ let fibonacci = (maxLimit) => {
         return 0;
     } else if (maxLimit == 2) {
         return 1;
-    } else if ((isNaN(maxLimit)) || (maxLimit < 0)) {
+    } else if ((isNaN(maxLimit)) || (maxLimit <= 0)) {
         console.error("Invalid Number");
         return -1;
     };
