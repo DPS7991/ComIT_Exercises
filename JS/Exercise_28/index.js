@@ -1,5 +1,24 @@
 'use strict';
 
+// Task from Object Notes
+let menu = {
+    pay1: 22,
+    pay2: 33,
+    food: 'Rice'
+}
+
+let multiplyNumeric = (menu) => {
+    for (let key in menu) {
+        if (typeof menu[key] === 'number') {
+            menu[key] *= 2;
+        }
+    }
+}
+
+console.log(menu);
+
+console.log(multiplyNumeric(menu));
+
 let userOne = {
     username: 'batman',
     password: 'hunter2'
