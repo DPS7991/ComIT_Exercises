@@ -11,8 +11,9 @@ let multiplyNumeric = (menu) => {
     for (let key in menu) {
         if (typeof menu[key] === 'number') {
             menu[key] *= 2;
-        }
+        };
     }
+    return menu;
 }
 
 console.log(menu);
