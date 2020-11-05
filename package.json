@@ -1,0 +1,22 @@
+{
+  "name": "typescript-first",
+  "version": "1.0.0",
+  "description": "Name: Daniel Peter-Salawu\r This repositiory is made for exercises in the ReactJS course!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DPS7991/ComIT_Exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DPS7991/ComIT_Exercises/issues"
+  },
+  "homepage": "https://github.com/DPS7991/ComIT_Exercises#readme",
+  "dependencies": {
+    "typescript": "^4.0.5"
+  }
+}
